@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Healthcare.DietActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7 Day Diet Plan"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/title"
+        />
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="130dp"
+            android:src="@drawable/mixfruits"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THE 7 DAYS PLAN FOR WEIGHT LOSS"
+            android:textSize="23dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/quetion"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What? Just 7 days and we lose those unwanted fat from our body ...isn't that great. Yes, it is, with this diet plan one is able to lose 5-10 pounds and help oneself achieve their desirable weight and body shape. This diet is also known as the GM-Diet plan which was made for the motor workers to stay fit and healthy. This diet plan just takes little of your dedication and gives you your desirable goal. So are you all ready to get a new look ?"
+            android:textSize="18sp"
+            android:layout_marginTop="18sp"
+            android:textColor="@color/answerr"
+            android:fontFamily="@font/arvo"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+           ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Advantage of GM Diet Plan"
+            android:textSize="23dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/quetion"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This 7 day vegetarian diet plan was developed for the well being of General Motors Inc. employees. That is the reason it is called the GM Diet Plan. The aim of the program is to gain a healthy body. You can expect the following things by practicing this Diet Plan regime:
+
+Lose around 5 to 8 kilograms in 7 days Natural glow to skin.
+Elimination of toxins will make you feel light and energetic.
+Reduces the flab around the tummy and waist.
+All these in just 7 days! It is a miracle diet plan!
+
+[NOTE: DO DRINK PLENTY OF WATER DURING YOUR DIET 8-10 GLASS OF WATER.]"
+            android:textSize="18sp"
+            android:layout_marginTop="18sp"
+            android:textColor="@color/answerr"
+            android:fontFamily="@font/arvo"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Day 1"
+            android:textSize="23dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/quetion"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Let's start with day one, on the first day of your diet you have to consume only fruits for the day as it is an all-fruit-day. Fruits are great for our health full of benefits and one must include fruits in their diet. Fruits not only help to lose weight but provide you with glowing and flawless skin and many nutrients required by your body. You are allowed to consume any fruit of your choice for the day and in any number (except banana). But do remember to divide your intakes in different numbers for the day. Eat in small quantity but more often. I would suggest to indulge on melons for the day as it will help to lose 1 pound of your weight on the very first day.(say NO to bananas)"
+            android:textSize="18sp"
+            android:layout_marginTop="18sp"
+            android:textColor="@color/answerr"
+            android:fontFamily="@font/arvo"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Day 2"
+            android:textSize="23dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/quetion"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Like the first day, the second day is AllVeggies day. You can eat nothing but vegetables and only vegetables. You can eat to your heart's content, feel your stomach filled up with vegetables if you need to. Boiled or raw vegetables will do. You can even begin your day with a boiled potato and a tea spoon of butter. This is done in order to give the body enough energy and carbohydrates for the day. But after that only raw and boiled vegetables. Only one potato this day is enough, don't consume more than that. Adding a pinch of oregano or basil seasoning to make the vegetables more edible is perfect. Day 2 is a calorie free day with a good amount of fibre and nutrients. If you make it through day two, you are definitely dedicated!"
+            android:textSize="18sp"
+            android:layout_marginTop="18sp"
+            android:textColor="@color/answerr"
+            android:fontFamily="@font/arvo"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Day 3"
+            android:textSize="23dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/quetion"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Day 3 is a combination of day 1 and 2. You can eat the mentioned fruits and vegetables. Eat any quantity and any amount you like and drink lots of water as directed. You need to avoid potatoes on day 3 as you are getting enough carbohydrates supply from the fruits. Your system is all set to burn the excess pounds. Your cravings may try to dominate, but think about the weight loss and the great results. You will feel light and happy by this time."
+            android:textSize="18sp"
+            android:layout_marginTop="18sp"
+            android:textColor="@color/answerr"
+            android:fontFamily="@font/arvo"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Day 4"
+            android:textSize="23dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/quetion"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Remember how you were told not to eat bananas on the first three days? Well on the 4th day of the vegetarian diet for losing weight, you have the liberty to eat up to 6 bananas for the whole day. You can drink up to 4 glasses of milk. You must have heard that bananas help in weight gain, however in this diet, they act as a source of potassium and sodium for the body. Since the intake of salt is reduced, bananas will do the job. You can also have one cup of a highly diluted soup for a meal. The soup should consist of capsicum, onions, garlic and tomatoes. It is a tasty and healthy recipe which will help in the weight loss process. You can drink it only 1 time a day, it is only to refresh your taste buds from all the vegetable and fruit intake. Be careful to resist yourself. You are just 3 days far from your dream figure."
+            android:textSize="18sp"
+            android:layout_marginTop="18sp"
+            android:textColor="@color/answerr"
+            android:fontFamily="@font/arvo"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Day 5"
+            android:textSize="23dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/quetion"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Day five is like a treat for you as on this day you can consume all the tasty but very healthy meals like tomatoes, sprouts and cottage cheese, also known as Paneer in India. You can also add Soya chunks to your meal. Make a tasty soup with the mentioned ingredients and drink it. Make sure to increase your water intake on day 5. You can eat up to 6 tomatoes and increase the water intake with 1/4 of the daily consumption. This is done in order to cleanse your body from uric acid. The tomatoes are for the fibre and digestion process. The water will purify your body from all kinds of toxins.
+"
+            android:textSize="18sp"
+            android:layout_marginTop="18sp"
+            android:textColor="@color/answerr"
+            android:fontFamily="@font/arvo"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Day 6"
+            android:textSize="23dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/quetion"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Day 6 is a little different to day 5. You will be eating sprouts, cottage cheese and other vegetables but by excluding tomatoes. No tomatoes on day 6, avoid them. The tasty soup and lots of water should help you through your day. Vegetables will provide vitamins and fibre to your body. You will already notice change in your body by this time. Continue consuming a good amount of water everyday."
+            android:textSize="18sp"
+            android:layout_marginTop="18sp"
+            android:textColor="@color/answerr"
+            android:fontFamily="@font/arvo"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Day 7"
+            android:textSize="23dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/quetion"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="THE LAST DAY of your diet. You will be feeling light on your toes and happy inside out. You can have fresh fruit juice, one cup of brown rice or half chapati/bread and other vegetables you would want to eat. You can complete your day with the consumption of water.That is the whole diet plan for 7 days. If you can follow it strictly, no one can stop you from gaining a healthy and slimmer body."
+            android:textSize="18sp"
+            android:layout_marginTop="18sp"
+            android:textColor="@color/answerr"
+            android:fontFamily="@font/arvo"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            ></TextView>
+
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

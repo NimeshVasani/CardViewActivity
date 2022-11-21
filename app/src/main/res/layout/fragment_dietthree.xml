@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Healthcare.DietActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Simple Cleans Diet"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/title"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do drink plenty of water during your diet plan"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/quetion"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Day 1"
+            android:textSize="23dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/quetion"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Breakfast- Oatmeal, 1 apple.
+
+Snack- green tea with 1/2 lemon and ginger.
+
+Lunch- tomato soup and one cup of fresh fruits of your choice.
+
+Snack- raw veggies such as cucumber, carrots.
+
+Dinner- one cup brown rice or chapati/bread, spinach, lemon juice.
+"
+            android:textSize="18sp"
+            android:layout_marginTop="18sp"
+            android:textColor="@color/answerr"
+            android:fontFamily="@font/arvo"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Day 2"
+            android:textSize="23dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/quetion"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Breakfast- Fresh fruits,handful of dry fruits .
+
+Snack- green tea with lemon and ginger.
+
+Lunch- vegetable soup, one or two slice of brown bread, 1 citrus fruit.
+
+Snack- one apple.
+
+Dinner- steamed vegetables (broccoli, cauliflower, carrots etc)"
+            android:textSize="18sp"
+            android:layout_marginTop="18sp"
+            android:textColor="@color/answerr"
+            android:fontFamily="@font/arvo"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Day 3"
+            android:textSize="23dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/quetion"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Breakfast- one glass of milk, dry fruits.
+
+Snack- green tea.
+
+Lunch- one chapati/bread, sprouts and tomato soup.
+
+Snack- watermelon or any other fruit.
+
+Dinner- plain cottage cheese, chapati/bread, salad"
+            android:textSize="18sp"
+            android:layout_marginTop="18sp"
+            android:textColor="@color/answerr"
+            android:fontFamily="@font/arvo"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            ></TextView>
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

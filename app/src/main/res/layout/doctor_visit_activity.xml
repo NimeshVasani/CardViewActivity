@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_margin="15dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="20dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_margin="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="raju Bhondi"
+            android:textSize="20dp"
+            android:id="@+id/name"
+            android:layout_marginLeft="150dp"
+            android:textColor="#3DA239"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="expertization"
+            android:id="@+id/expertization"
+            android:textSize="16dp"
+            android:textColor="#FF5722"
+            android:textStyle="bold"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="60dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="degree"
+            android:id="@+id/degree"
+            android:textSize="16dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="90dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expiriance :"
+            android:textSize="16dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="130dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 Years"
+            android:id="@+id/expiriance"
+            android:textSize="16dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="130dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="shivaji circle , ghogha jakat naka "
+            android:textSize="16dp"
+            android:id="@+id/address"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="160dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time : "
+            android:textSize="16dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="190dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7:00 to 9:00 "
+            android:textSize="16dp"
+            android:id="@+id/time"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="190dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contect : "
+            android:textSize="16dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="220dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9876543210"
+            android:textSize="16dp"
+            android:id="@+id/mobilenumber"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="220dp"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/call"
+            android:background="#9C1FD528"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="200dp"/>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

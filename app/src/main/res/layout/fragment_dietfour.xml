@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Healthcare.DietActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="130dp"
+            android:src="@drawable/cumcumbers"
+            ></ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diet Plan 4"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/quetion"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cucumbers make tasty and filling salads that can keep you going all along the day. Mix 2 lbs of cucumbers with a pinch of salt, a teaspoon of herbs such as oregano,parsley and dill, and olive oil to make a delicious salad for your cucumber diet.Besides the health benefits of cucumbers, the herbs are rich in vitamins and minerals that provide essential nourishment to the body. It works as a fantastic natural skin care product, which can instantly brighten up your skin and eyes. Here's an idea for a standard cucumber diet."
+            android:textSize="18sp"
+            android:layout_marginTop="18sp"
+            android:textColor="@color/answerr"
+            android:fontFamily="@font/arvo"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Cumcumber Diet"
+            android:textSize="23dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/quetion"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Cucumber Diet
+For breakfast: 1 bowl of cucumber salad, 1 cup of tea, and a toast of wheat bread .
+
+For lunch: Chapati/Bread, a bowl of cucumber salad.
+
+For dinner: Only salad"
+            android:textSize="18sp"
+            android:layout_marginTop="18sp"
+            android:textColor="@color/answerr"
+            android:fontFamily="@font/arvo"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            ></TextView>
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

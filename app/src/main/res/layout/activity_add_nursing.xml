@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login"
+    tools:context=".LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="3">
+
+        <TextView
+            android:id="@+id/textGrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Add Nursing"
+            android:textColor="#1c8ae3"
+            android:textSize="34sp" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="14dp">
+
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:textAlignment="center"
+                app:met_baseColor="#fff"
+                android:inputType="textEmailAddress"
+                app:met_floatingLabel="normal"
+                app:met_textColor="#fff"
+                app:met_textColorHint="#FFE4D1D1" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/workplace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Work Place"
+                android:textAlignment="center"
+                app:met_baseColor="#fff"
+                android:inputType="textEmailAddress"
+                app:met_floatingLabel="normal"
+                app:met_textColor="#fff"
+                app:met_textColorHint="#FFE4D1D1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/starttime"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:hint="Start Time"
+                android:textAlignment="center"
+                app:met_baseColor="#fff"
+                android:paddingRight="20dp"
+                android:inputType="number"
+                android:maxLength="10"
+                app:met_floatingLabel="normal"
+                app:met_textColor="#fff"
+                app:met_textColorHint="#FFE4D1D1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To"
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"
+                android:textColor="#fff"
+                />
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/endtime"
+                android:layout_width="110dp"
+                android:paddingLeft="20dp"
+                android:layout_height="wrap_content"
+                android:hint="End Time"
+                android:textAlignment="center"
+                app:met_baseColor="#fff"
+               android:inputType="number"
+                android:maxLength="10"
+                app:met_floatingLabel="normal"
+                app:met_textColor="#fff"
+                app:met_textColorHint="#FFE4D1D1" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:textColor="#fff"
+                />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:text="Male"
+                    android:padding="15dp"
+                    android:buttonTint="#fff"
+                    android:id="@+id/male"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female"
+                    android:padding="15dp"
+                    android:textColor="#fff"
+                    android:buttonTint="#fff"
+                    android:id="@+id/female"
+                    />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Catagory"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:textColor="#fff"
+                />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:text="Doctor Visit"
+                    android:padding="15dp"
+                    android:buttonTint="#fff"
+                    android:id="@+id/doctorvisit"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Home Service"
+                    android:padding="15dp"
+                    android:textColor="#fff"
+                    android:buttonTint="#fff"
+                    android:id="@+id/homeservice"
+                    />
+            </RadioGroup>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/degree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Degree"
+                android:textAlignment="center"
+                app:met_baseColor="#fff"
+                android:inputType="textEmailAddress"
+                android:maxLength="10"
+                app:met_floatingLabel="normal"
+                app:met_textColor="#fff"
+                app:met_textColorHint="#FFE4D1D1" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/expertization"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="expertization"
+                android:textAlignment="center"
+                app:met_baseColor="#fff"
+                android:inputType="textEmailAddress"
+                android:maxLength="10"
+                app:met_floatingLabel="normal"
+                app:met_textColor="#fff"
+                app:met_textColorHint="#FFE4D1D1" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/experience"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Experience"
+                android:textAlignment="center"
+                app:met_baseColor="#fff"
+               android:inputType="number"
+                android:maxLength="10"
+                app:met_floatingLabel="normal"
+                app:met_textColor="#fff"
+                app:met_textColorHint="#FFE4D1D1" />
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mobile Number"
+                android:textAlignment="center"
+                app:met_baseColor="#fff"
+                android:inputType="number"
+                android:maxLength="10"
+                app:met_floatingLabel="normal"
+                app:met_textColor="#fff"
+                app:met_textColorHint="#FFE4D1D1" />
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:textAlignment="center"
+                app:met_baseColor="#fff"
+                android:inputType="textEmailAddress"
+                app:met_floatingLabel="normal"
+                app:met_textColor="#fff"
+                app:met_textColorHint="#FFE4D1D1" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/password"
+                app:met_baseColor="#fff"
+                app:met_textColorHint="#FFE4D1D1"
+                app:met_textColor="#fff"
+                android:textAlignment="center"
+                android:inputType="textPassword"
+                android:maxLength="10"
+                app:met_floatingLabel="normal"
+                android:hint="Password"/>
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/repassword"
+                app:met_baseColor="#fff"
+                android:maxLength="10"
+                app:met_textColorHint="#FFE4D1D1"
+                app:met_textColor="#fff"
+                android:textAlignment="center"
+                android:inputType="textPassword"
+                app:met_floatingLabel="normal"
+                android:hint="Re-password"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Submit"
+                    android:id="@+id/submit"
+                    android:textColor="#fff"
+                    android:background="@drawable/button"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

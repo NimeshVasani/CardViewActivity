@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "937082148222",
+    "firebase_url": "https://cardviewactivity-b2a0b-default-rtdb.firebaseio.com",
+    "project_id": "cardviewactivity-b2a0b",
+    "storage_bucket": "cardviewactivity-b2a0b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937082148222:android:56e27209c768a3f14d0f2f",
+        "android_client_info": {
+          "package_name": "com.example.cardviewactivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937082148222-43n0i7fhc04b77eh0duq51drtl5o2foj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG_WvKOUXKinWYAibfF4OrB3JztSL86Nk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "937082148222-43n0i7fhc04b77eh0duq51drtl5o2foj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
